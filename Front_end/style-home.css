@@ -1,0 +1,236 @@
+body {
+	font-family: montserrat, arial;
+}
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.logo {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+h1 {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+.titulo-principal {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	padding-right: 20px;
+	padding-top: 30px;
+	font-size: 30px
+}
+
+.banner {
+	height: 647px;
+	width: 100%;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+}
+.principal {
+	/*background: #CCCCCC; */
+	padding: 30px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.titulo-centralizado:first-letter {
+	font-weight: bold;
+
+}
+
+.titulo-centralizado:before {
+	content: "[ ";
+}
+
+.titulo-centralizado:after {
+	content: " ]";
+}
+
+p {
+	/*text-align: center;*/
+}
+
+.principal p {
+	
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+em strong {
+	color: #FF0000;
+	font-style: italic;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
+}
+.beneficios h3 {
+	padding: 10px;
+	text-align: center;	
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	
+}
+
+.beneficios-centalizado {
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+
+}
+
+ul {
+	text-align: center;
+}
+
+/*.jujuba {
+	display: flex;
+	flex-direction: column;
+} */
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+	padding: 3em 0;
+}
+
+.jujuba {
+	width: 35%;
+	display: inline-block;
+	vertical-align: top;
+	font-weight: bold;
+	color: #000000;
+}
+
+.jujuba li {
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	height: 20px;
+	width: 40%;
+	vertical-align: top;
+	margin: 1.5% 1.5%;
+	padding: 25px 25px;
+	box-sizing: content-box;
+	border: 1.5px solid #000000;
+	border-radius: 20px;	
+}
+
+
+/*.itens {
+	line-height: 1.5;
+} */
+
+/*.itens:first-child {
+	font-weight: bold;
+}
+*/
+
+/*.itens:nth-chield(3) {
+	font-weight: bold;
+}
+*/
+
+/*.itens:nth-chield(2n) {
+	font-weight: bold;
+}
+*/
+
+.imagem-beneficios {
+	width: 65%;
+	opacity:1;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity:0.5;
+}
+
+footer {
+	text-align: center; 
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+/*background: radial-gradient(orange 50%, blue, red, black); */
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.mapa p {
+	text-align: center;
+	margin: 0 0 2em;
+}
+
+.video {
+	width: 50%;
+	margin: 1em auto;
+}
+
+@media screen and (max-width: 1000px) {
+	.logo, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.jujuba, .imagem-beneficios {
+		width: 100%;
+	}
+
+}
